@@ -8,4 +8,4 @@ def hello():
     return jsonify({'hello': 'world'})
 
 
-app.run()
+app.run(port='8080')

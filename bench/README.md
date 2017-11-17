@@ -13,15 +13,20 @@ Comparando linguages populares
 ### Node
 
 `node app.js`
-`hey http://localhost:3000`
+`hey http://localhost:8080`
 
 ### Python
 
 `python app.py`
-`hey http://localhost:5000`
+`hey http://localhost:8080`
 
 ### Go
 
 `go run main.go`
-`hey http://localhost:4000`
+`hey http://localhost:8080`
+
+### PHP
+
+`php -S localhost:8080`
+`hey http://localhost:8080`
 
