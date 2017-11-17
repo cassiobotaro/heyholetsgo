@@ -31,6 +31,9 @@ func main() {
 	http.HandleFunc("/", helloHandler)
 	http.HandleFunc("/comments", commentsHandler)
 	fmt.Println("Servindo em http://localhost:8000")
-	port := os.Getenv("PORT") || "8000"
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8000"
+	}
 	http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
 }
