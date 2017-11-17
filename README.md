@@ -1,4 +1,4 @@
-# heyholetsgo
+#  :metal: heyholetsgo
 
 Uma introdução a linguagem Go
 
