@@ -11,6 +11,7 @@ Uma introdução a linguagem Go
 * go (opcional)
 * python 3.6 (opcional)
 * flask (opcional)
+* rust (opcional)
 
 # O que está achando da palestra?
 

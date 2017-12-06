@@ -30,3 +30,7 @@ Comparando linguages populares
 `php -S localhost:8080`
 `hey http://localhost:8080`
 
+### Rust
+
+`cargo run --release`
+`hey http://localhost:3000`
